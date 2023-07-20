@@ -5,30 +5,43 @@ import Movierow from "./Movierow.js"
 import Data from "./Data.js"
 import "./globals.css"
 
-const task=()=>{
+const task = () => {
     const [movies, setMovies] = useState(Data);
+
     const handleDelete = (name) => {
-    const updatedMovies = movies.filter((movie_object) =>name!== movie_object.name);
-    setMovies(updatedMovies);
+        const updatedMovies = movies.filter((movie_object) => name !== movie_object.name);
+        setMovies(updatedMovies);
     };
+
+    function like(count) {
+        count.rating += 1
+        const newArray = [...movies]
+        setMovies(newArray);
+    }
+
+    function dislike(count) {
+        count.rating -= 1
+        const newArray = [...movies]
+        setMovies(newArray);
+    }
     
-  
-    return(
+    const sortedMovies = [...movies].sort((a, b) => b.rating - a.rating);
+
+    return (
         <>
-            <Header/>
-            {movies.map((movie)=>(
+            <Header />
+            {sortedMovies.map((movie) => (
                 <Movierow
                     key={movie.id}
                     box={movie}
-                    onDelete={()=>handleDelete(movie.name)}
+                    onDelete={() => handleDelete(movie.name)}
+                    like={like}
+                    dislike={dislike}
                 />
             ))}
         </>
-        
     )
 }
 
 export default task;
-
-
 

@@ -15,7 +15,7 @@ export default function   Movierow (props){
                             <div className="tex5">Description</div>
                             <div className="tex6">{props.box.description}</div>
                         
-                            <Action_row/> 
+                            <Action_row {...props}/> 
                             <Delete
                                 {...props}
                              />

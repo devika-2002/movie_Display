@@ -1,24 +1,20 @@
 "use client"
 import React, { useState } from 'react';
-const Action_row = ({ id, handleDelete  }) => {
-    const [Rating, setRating] = useState(0);
-    const handleLike = () => {
-        setRating(Rating + 1);
-    };
-    const handledislike = () => {
-        setRating(Rating - 1);
-    };
+const Action_row = (props) => {
 
     return(
            <div>
                 <div className="icon">
                     <div className="like_dislike">
-                        <button onClick={handleLike} className="Like_button">
+                        <button onClick={()=>props.like(props.box)} className="Like_button">
                             <img src="movie-like.png" alt="like" />
                         </button>
               
-                        <span className="voting">{Rating}</span>
-                        <button onClick={handledislike} className="Dislike_button">
+                        <div className="voting">
+                            <h1>{props.box.rating}</h1>
+                        </div>
+                        
+                        <button onClick={()=>props.dislike(props.box)} className="Dislike_button">
                             <img src="movie-dislike.png" alt="dislike" />
                         </button>
               
