@@ -88,6 +88,6 @@ const  Data=[{
     description:'After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. Along the way, Christopher encounters a series of characters that shape his life.',
     image:'image-the-intouchables.png',
     rating:0
-    }];
+}];
 
 export default Data;

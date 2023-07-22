@@ -44,7 +44,7 @@ const page = () => {
             ))}
             <Add_movie />
         </>
-    );
+    )
 };
 
 export default page;

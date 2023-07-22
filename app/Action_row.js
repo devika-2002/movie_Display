@@ -22,7 +22,6 @@ const Action_row = (props) => {
                 </div>
          </div>
     )
-    
 };
 
 export default Action_row;

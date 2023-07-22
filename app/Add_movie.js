@@ -11,4 +11,5 @@ const Add_movie = () => {
         </>
     );
 };
+
 export default Add_movie;
