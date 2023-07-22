@@ -1,160 +1,185 @@
-
-
-*{
-  box-sizing:border-box;
-  
+* {
+    box-sizing: border-box;
 }
-body{
-    background-color:black;
-    color:white;
+body {
+    background-color: black;
+    color: white;
 }
-.row{
-    border:1px solid white;
-    height:28px;
-
+.row {
+    border: 1px solid white;
+    height: 28px;
 }
-.row1{
-    border:1px solid white;
-    height:72px;
-    margin:auto;
-    margin-top:20px;
+.row1 {
+    border: 1px solid white;
+    height: 72px;
+    margin: auto;
+    margin-top: 20px;
 }
-.Hub{
-    float:left;
-    border:1px solid red;
-    height:72px;
-    width:30%;
-
+.Hub {
+    float: left;
+    border: 1px solid red;
+    height: 72px;
+    width: 30%;
 }
-.col{
-     border:1px solid white;
+.col {
+    border: 1px solid white;
 }
-.col1{
-    float:left;
-    width:100px;
-    height:72px;
-    margin-left:157px;
+.col1 {
+    float: left;
+    width: 100px;
+    height: 72px;
+    margin-left: 157px;
 }
 
-.Hub1{
-    border:1px solid red;
-    float:right;
-    height:30px;
-    width:186px;
-    margin-top:20px;
-    margin-right:349px;
-
+.Hub1 {
+    border: 1px solid red;
+    float: right;
+    height: 30px;
+    width: 186px;
+    margin-top: 20px;
+    margin-right: 349px;
 }
-.box{
-    border:1px solid white;
+.box {
+    border: 1px solid white;
 }
-.box1{
-    float:left;
-    width:56px;
-    height:30px;
-
+.box1 {
+    float: left;
+    width: 56px;
+    height: 30px;
 }
-.box2{
-    float:right;
-    width:94px;
-    height:30px;
+.box2 {
+    float: right;
+    width: 94px;
+    height: 30px;
 }
-.row2{
-    border:1px solid white;
-    height:30px;
-    margin-top:20px;
+.row2 {
+    border: 1px solid white;
+    height: 30px;
+    margin-top: 20px;
 }
-.watch-col{
-    border:1px solid red;
-    height:30px;
-    margin-left:23.4%;
-
+.watch-col {
+    border: 1px solid red;
+    height: 30px;
+    margin-left: 23.4%;
 }
 
-.movie-row{
-    border-bottom:1px solid #5E5E75;
-    width:960px;
-    height:277px;
-    margin:auto;
-    margin-top:20px;
+
+
+.movie-row {
+    border-bottom: 1px solid #5e5e75;
+    width: 960px;
+    height: 277px;
+    margin: auto;
+    margin-top: 20px;
 }
-.movie-row1{
-    border:1px solid white;
-    height:252px;
+.movie-row1 {
+    border: 1px solid white;
+    height: 252px;
 }
-.movie-image{
-    float:left;
-    width:200px;
-    height:252px;
+.movie-image {
+    float: left;
+    width: 200px;
+    height: 252px;
 }
 .movie-tex {
-    
-    float:right;
-    width:728px;
-  
-
+    float: right;
+    width: 728px;
 }
-.tex1{
-    height:207px;
-
+.tex1 {
+    height: 207px;
 }
-.tex3{
-    padding-top:5px;
-    font-size:30px;
-    font-weight: bold; 
-}
-
-.tex5{
-    padding-top:5px;
-    font-size:20px;
+.tex3 {
+    padding-top: 5px;
+    font-size: 30px;
     font-weight: bold;
-
-}
-.tex6{
-    padding-top:5px;
-
-
 }
 
-
-
-.icon{
-    width:728px;
-
+.tex5 {
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tex6 {
+    padding-top: 5px;
 }
 
-.like_dislike{
+.icon {
+    width: 728px;
+}
+
+.like_dislike {
     width: 150px;
 }
 
-button{
-    background: none !important;
+button {
+    background: none;
     border: none;
-    outline: none;
-    cursor: pointer;
-    
 }
 
-.Like_button{
-    float:left;
+.Like_button {
+    float: left;
 }
-.voting{
+.voting {
     float: left;
     margin-left: 8px;
-    margin-top: 7px;
+    margin-top: -19px;
 }
-.Dislike_button{
-    float:left;
+.Dislike_button {
+    float: left;
     margin-left: 8px;
 }
 
-.delete_button{
-    float:right;
+.delete_button {
+    float: right;
 }
 
 
+.Add_movie_row {
+    border: 1px solid red;
+    height: 40px;
+    margin-top: 100px;
+    margin-left:23%;
+}
 
+.Add_movie_col {
+    border: 1px solid white;
+    width: 156px;
+    height: 22px;
 
+}
+.Add_movie_col1 {
+    border: 1px solid red;
+    width: 658px;
+    height: 16px;
+
+    font-size: small;
+}
+
+.add_button{
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #f85146;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top:25px;
+
+}
+
+.plus{
+    border: none;
+    outline: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    color: white;
+    margin-left:10px;
+
+}
 
 
 

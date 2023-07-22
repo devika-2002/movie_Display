@@ -70,4 +70,10 @@ const task=()=>{
 export default task;
 
 
-
+function sorting(a b){
+        abc.rating+=1
+        const newArray=[...movies]
+        setMovies(newArray);
+        
+    }
+  
