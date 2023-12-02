@@ -4,7 +4,6 @@ import Header from "./Header.js";
 import Movierow from "./Movierow.js";
 import Data from "./Data.js";
 import "./globals.css";
-import Add_movie from "./Add_movie.js";
 
 const page = () => {
     const [movies, setMovies] = useState(Data);
@@ -42,7 +41,6 @@ const page = () => {
             dislike={dislike}
             />
             ))}
-            <Add_movie />
         </>
     )
 };
